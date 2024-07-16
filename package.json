@@ -1,0 +1,15 @@
+{
+  "name": "nova-pasta",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run .",
+    "test": "bun run tests/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
